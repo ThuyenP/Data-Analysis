@@ -5,3 +5,6 @@ Interested in understanding the electricity consumption and generation in the US
 
 ### Tableau Dashboard:
 The link to the dashboard could be found here: [Net Power Generation Visualization](https://public.tableau.com/views/NetPowerGenerationVisualization/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+### Datasets:
+The dataset being used for this project could be found in the [Datasets folder](https://github.com/ThuyenP/Data-Analysis/tree/main/Electricity%20%26%20Fossil%20Power/Datasets)
