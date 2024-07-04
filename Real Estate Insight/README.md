@@ -98,7 +98,7 @@ Noticable problem within the dataset:
   
   This could lead to inaccurate analysis and report. My recommendation is discussing this with the business team and the realtor from whom the dataset was obtained. Meanwhile, I would proceed the analysis with only years from 2011 to 2019 to avoid skewed visualization and inaccuracy.
   
-* There are areas that have less than 10 listings while some areas have more than 200 listings. This could also a potential reason that leads to skwed visualizationa dn inaccuracy in analysis.
+* There are areas that have less than 10 listings while some areas have more than 200 listings. This could also a potential reason that leads to skewed visualization and inaccuracy in analysis.
   ```
   SELECT COUNT(property_type) AS total_prop, town FROM sales_listing GROUP BY town ORDER BY total_prop;
   ```
@@ -131,7 +131,8 @@ Noticable problem within the dataset:
 8. Step 8: Add in filtered by town and year for easy access on data visualization
    ![image](https://github.com/ThuyenP/Real-Estate-Analysis/assets/57400761/0a0bd40d-2d7d-4c40-b72f-65514046a681)
 
-
+#### Conclusion:
+Looking at the visualization, we should consider investing in Shelton, Westport, and Greenwich town since they have the highest average sale outputs as well as being among the top 5 towns with the most profit. Meanwhile, we should avoid invest in three-family apartment type since it would lead to investment loss. 
 
 
 
